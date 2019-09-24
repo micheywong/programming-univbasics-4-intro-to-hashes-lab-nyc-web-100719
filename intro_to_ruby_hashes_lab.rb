@@ -43,10 +43,8 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   if hash[key]
     hash[key] += 1
-    puts update_counting_hash
   else
     hash[key] = 1
-    puts update_counting_hash
   end
 end
 
