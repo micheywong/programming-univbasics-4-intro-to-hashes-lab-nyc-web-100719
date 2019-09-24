@@ -45,7 +45,7 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   update_counting_hash = {
     if list["apples"]
-      list["apples"] += 1
+    list["apples"] += 1
     else
     list["apples"] = 1
     end
